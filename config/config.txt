@@ -103,10 +103,10 @@ ALLOW_ADMIN_ASAYCOLOR
 ID_CONSOLE_JOBSLOT_DELAY 30
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initiate a map-change vote
-#ALLOW_VOTE_MAP
+ALLOW_VOTE_MAP
 
 ## allow players to rock the vote, or to vote on the map again if they didn't like the last results
 #ALLOW_ROCK_THE_VOTE
@@ -130,7 +130,7 @@ VOTE_PERIOD 600
 ## 0 = Cannot respawn (default)
 ## 1 = Can respawn
 ## 2 = Can respawn if choosing a different character
-ALLOW_RESPAWN 0
+ALLOW_RESPAWN 1
 
 ## Respawn delay (deciseconds), which doesn't allow to return to lobby
 RESPAWN_DELAY 0
